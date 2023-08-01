@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <header><p>WEATHER APP</p></header>
+      <div id="searchbox">
+        <label for="locationinput">Location: </label
+        ><input id="locationinput" type="text" />
+        <button id="getweatherbutton">Search</button>
+      </div>
+
+      <div id="weatherinfo" class="hidden">
+        <h3>Weather infomation</h3>
+        <p>Weather: <span id="mainweather"></span></p>
+        <p>Temp: <span id="temp"></span>°C</p>
+        <p>Feels like <span id="feelslike"></span>°C</p>
+        <p>Humidity: <span id="humidity"></span>%</p>
+        <p>Wind: <span id="wind"></span>km/h</p>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

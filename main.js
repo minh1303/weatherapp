@@ -1,4 +1,3 @@
-import "./style.css";
 
 const button = document.getElementById("getweatherbutton");
 const locationInput = document.getElementById("locationinput");
